@@ -1,0 +1,1052 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.SearchFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/room_lavel1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="14dp"
+                        android:layout_marginTop="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue_text"
+                        android:gravity="center_horizontal"
+                        android:text="Name: Room1   Loan: $500   Weekly Payment: $50"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:weightSum="1"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.8"
+                            android:layout_height="wrap_content">
+
+                            <RelativeLayout
+                                android:layout_marginHorizontal="10dp"
+                                android:background="@drawable/gray_back"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerInParent="true"
+                                    android:textSize="14dp"
+                                    android:textColor="@color/blue_text"
+                                    android:text="Available Numbers"
+                                    android:textStyle="bold"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:textSize="16dp"
+                                    android:textColor="@color/blue_text"
+                                    android:text="    9     8    5    6   2   1   10   4   7"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:background="@drawable/green_back"
+                                android:layout_gravity="center"
+                                android:text="Join"
+                                android:textColor="@color/white_text"
+                                android:textAllCaps="false"
+                                android:textSize="16dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                    <TextView
+                        android:textSize="14dp"
+                        android:layout_marginTop="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue_text"
+                        android:gravity="center_horizontal"
+                        android:text="Name: Room2   Loan: $500   Weekly Payment: $50"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:weightSum="1"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.8"
+                            android:layout_height="wrap_content">
+
+                            <RelativeLayout
+                                android:layout_marginHorizontal="10dp"
+                                android:background="@drawable/gray_back"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerInParent="true"
+                                    android:textSize="14dp"
+                                    android:textColor="@color/blue_text"
+                                    android:text="Available Numbers"
+                                    android:textStyle="bold"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:textSize="16dp"
+                                    android:textColor="@color/blue_text"
+                                    android:text="    9     8    5    6   2   1   10   4   7"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:background="@drawable/green_back"
+                                android:layout_gravity="center"
+                                android:text="Join"
+                                android:textColor="@color/white_text"
+                                android:textAllCaps="false"
+                                android:textSize="16dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:textSize="14dp"
+                        android:layout_marginTop="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue_text"
+                        android:gravity="center_horizontal"
+                        android:text="Name: Room8   Loan: $500   Weekly Payment: $50"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:weightSum="1"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.8"
+                            android:layout_height="wrap_content">
+
+                            <RelativeLayout
+                                android:layout_marginHorizontal="10dp"
+                                android:background="@drawable/gray_back"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerInParent="true"
+                                    android:textSize="14dp"
+                                    android:textColor="@color/blue_text"
+                                    android:text="Available Numbers"
+                                    android:textStyle="bold"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:textSize="16dp"
+                                    android:textColor="@color/blue_text"
+                                    android:text="    9     8    5    6   2   1   10   4   7"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:background="@drawable/green_back"
+                                android:layout_gravity="center"
+                                android:text="Join"
+                                android:textColor="@color/white_text"
+                                android:textAllCaps="false"
+                                android:textSize="16dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:textSize="14dp"
+                        android:layout_marginTop="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue_text"
+                        android:gravity="center_horizontal"
+                        android:text="Name: Room7   Loan: $500   Weekly Payment: $50"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:weightSum="1"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.8"
+                            android:layout_height="wrap_content">
+
+                            <RelativeLayout
+                                android:layout_marginHorizontal="10dp"
+                                android:background="@drawable/gray_back"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerInParent="true"
+                                    android:textSize="14dp"
+                                    android:textColor="@color/blue_text"
+                                    android:text="Available Numbers"
+                                    android:textStyle="bold"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:textSize="16dp"
+                                    android:textColor="@color/blue_text"
+                                    android:text="    9     8    5    6   2   1   10   4   7"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:background="@drawable/green_back"
+                                android:layout_gravity="center"
+                                android:text="Join"
+                                android:textColor="@color/white_text"
+                                android:textAllCaps="false"
+                                android:textSize="16dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/room_lavel2"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="14dp"
+                        android:layout_marginTop="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue_text"
+                        android:gravity="center_horizontal"
+                        android:text="Name: Room10   Loan: $1000   Weekly Payment: $100"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:weightSum="1"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.8"
+                            android:layout_height="wrap_content">
+
+                            <RelativeLayout
+                                android:layout_marginHorizontal="10dp"
+                                android:background="@drawable/gray_back"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerInParent="true"
+                                    android:textSize="14dp"
+                                    android:textColor="@color/blue_text"
+                                    android:text="Available Numbers"
+                                    android:textStyle="bold"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:textSize="16dp"
+                                    android:textColor="@color/blue_text"
+                                    android:text="    9     8    5    6   2   1   10   4   7"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:background="@drawable/green_back"
+                                android:layout_gravity="center"
+                                android:text="Join"
+                                android:textColor="@color/white_text"
+                                android:textAllCaps="false"
+                                android:textSize="16dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:textSize="14dp"
+                        android:layout_marginTop="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue_text"
+                        android:gravity="center_horizontal"
+                        android:text="Name: Room6   Loan: $1000   Weekly Payment: $100"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:weightSum="1"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.8"
+                            android:layout_height="wrap_content">
+
+                            <RelativeLayout
+                                android:layout_marginHorizontal="10dp"
+                                android:background="@drawable/gray_back"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerInParent="true"
+                                    android:textSize="14dp"
+                                    android:textColor="@color/blue_text"
+                                    android:text="Available Numbers"
+                                    android:textStyle="bold"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:textSize="16dp"
+                                    android:textColor="@color/blue_text"
+                                    android:text="    9     8    5    6   2   1   10   4   7"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:background="@drawable/green_back"
+                                android:layout_gravity="center"
+                                android:text="Join"
+                                android:textColor="@color/white_text"
+                                android:textAllCaps="false"
+                                android:textSize="16dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:textSize="14dp"
+                        android:layout_marginTop="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue_text"
+                        android:gravity="center_horizontal"
+                        android:text="Name: Room9   Loan: $1000   Weekly Payment: $100"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:weightSum="1"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.8"
+                            android:layout_height="wrap_content">
+
+                            <RelativeLayout
+                                android:layout_marginHorizontal="10dp"
+                                android:background="@drawable/gray_back"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerInParent="true"
+                                    android:textSize="14dp"
+                                    android:textColor="@color/blue_text"
+                                    android:text="Available Numbers"
+                                    android:textStyle="bold"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:textSize="16dp"
+                                    android:textColor="@color/blue_text"
+                                    android:text="    9     8    5    6   2   1   10   4   7"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:background="@drawable/green_back"
+                                android:layout_gravity="center"
+                                android:text="Join"
+                                android:textColor="@color/white_text"
+                                android:textAllCaps="false"
+                                android:textSize="16dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/room_lavel3"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="20dp"
+                        android:textColor="@color/blue_text"
+                        android:gravity="center_horizontal"
+                        android:text="Name: Room15   Loan: $1500   Weekly Payment: $150"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:weightSum="1"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.8"
+                            android:layout_height="wrap_content">
+
+                            <RelativeLayout
+                                android:layout_marginHorizontal="10dp"
+                                android:background="@drawable/gray_back"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerInParent="true"
+                                    android:textSize="14dp"
+                                    android:textColor="@color/blue_text"
+                                    android:text="Available Numbers"
+                                    android:textStyle="bold"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:textSize="16dp"
+                                    android:textColor="@color/blue_text"
+                                    android:text="    9     8    5    6   2   1   10   4   7"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:background="@drawable/green_back"
+                                android:layout_gravity="center"
+                                android:text="Join"
+                                android:textColor="@color/white_text"
+                                android:textAllCaps="false"
+                                android:textSize="16dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:textSize="14dp"
+                        android:layout_marginTop="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue_text"
+                        android:gravity="center_horizontal"
+                        android:text="Name: Room12   Loan: $1500   Weekly Payment: $150"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:weightSum="1"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.8"
+                            android:layout_height="wrap_content">
+
+                            <RelativeLayout
+                                android:layout_marginHorizontal="10dp"
+                                android:background="@drawable/gray_back"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerInParent="true"
+                                    android:textSize="14dp"
+                                    android:textColor="@color/blue_text"
+                                    android:text="Available Numbers"
+                                    android:textStyle="bold"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:textSize="16dp"
+                                    android:textColor="@color/blue_text"
+                                    android:text="    9     8    5    6   2   1   10   4   7"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:background="@drawable/green_back"
+                                android:layout_gravity="center"
+                                android:text="Join"
+                                android:textColor="@color/white_text"
+                                android:textAllCaps="false"
+                                android:textSize="16dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:textSize="14dp"
+                        android:layout_marginTop="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue_text"
+                        android:gravity="center_horizontal"
+                        android:text="Name: Room15   Loan: $1500   Weekly Payment: $150"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:weightSum="1"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.8"
+                            android:layout_height="wrap_content">
+
+                            <RelativeLayout
+                                android:layout_marginHorizontal="10dp"
+                                android:background="@drawable/gray_back"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerInParent="true"
+                                    android:textSize="14dp"
+                                    android:textColor="@color/blue_text"
+                                    android:text="Available Numbers"
+                                    android:textStyle="bold"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:textSize="16dp"
+                                    android:textColor="@color/blue_text"
+                                    android:text="    9     8    5    6   2   1   10   4   7"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:background="@drawable/green_back"
+                                android:layout_gravity="center"
+                                android:text="Join"
+                                android:textColor="@color/white_text"
+                                android:textAllCaps="false"
+                                android:textSize="16dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/room_lavel4"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textSize="14dp"
+                        android:layout_marginTop="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue_text"
+                        android:gravity="center_horizontal"
+                        android:text="Name: Room20   Loan: $2000   Weekly Payment: $200"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:weightSum="1"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.8"
+                            android:layout_height="wrap_content">
+
+                            <RelativeLayout
+                                android:layout_marginHorizontal="10dp"
+                                android:background="@drawable/gray_back"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerInParent="true"
+                                    android:textSize="14dp"
+                                    android:textColor="@color/blue_text"
+                                    android:text="Available Numbers"
+                                    android:textStyle="bold"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:textSize="16dp"
+                                    android:textColor="@color/blue_text"
+                                    android:text="    9     8    5    6   2   1   10   4   7"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:background="@drawable/green_back"
+                                android:layout_gravity="center"
+                                android:text="Join"
+                                android:textColor="@color/white_text"
+                                android:textAllCaps="false"
+                                android:textSize="16dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:textSize="14dp"
+                        android:layout_marginTop="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue_text"
+                        android:gravity="center_horizontal"
+                        android:text="Name: Room21   Loan: $2000   Weekly Payment: $200"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:weightSum="1"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.8"
+                            android:layout_height="wrap_content">
+
+                            <RelativeLayout
+                                android:layout_marginHorizontal="10dp"
+                                android:background="@drawable/gray_back"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_alignParentTop="true"
+                                    android:layout_centerInParent="true"
+                                    android:textSize="14dp"
+                                    android:textColor="@color/blue_text"
+                                    android:text="Available Numbers"
+                                    android:textStyle="bold"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:textSize="16dp"
+                                    android:textColor="@color/blue_text"
+                                    android:text="    9     8    5    6   2   1   10   4   7"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:background="@drawable/green_back"
+                                android:layout_gravity="center"
+                                android:text="Join"
+                                android:textColor="@color/white_text"
+                                android:textAllCaps="false"
+                                android:textSize="16dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_marginHorizontal="10dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <LinearLayout
+                android:id="@+id/lavel1"
+                android:orientation="vertical"
+                android:layout_weight="0.25"
+                android:layout_width="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="60dp">
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    android:background="@color/gray_back"
+                    android:text="$500"
+                    android:layout_marginHorizontal="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lavel2"
+                android:orientation="vertical"
+                android:layout_weight="0.25"
+                android:layout_width="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="60dp">
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    android:background="@color/gray_back"
+                    android:text="$1000"
+                    android:layout_marginHorizontal="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lavel3"
+                android:orientation="vertical"
+                android:layout_weight="0.25"
+                android:layout_width="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="60dp">
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    android:background="@color/gray_back"
+                    android:text="$1500"
+                    android:layout_marginHorizontal="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lavel4"
+                android:orientation="vertical"
+                android:layout_weight="0.25"
+                android:layout_width="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="60dp">
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    android:background="@color/gray_back"
+                    android:text="$2000"
+                    android:layout_marginHorizontal="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

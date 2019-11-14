@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#48bbff</color>
+    <color name="colorAccent">#2cd306</color>
+
+    <color name="splash_back">#48bbff</color>
+    <color name="white_text">#ffffff</color>
+    <color name="btn_text">#00d4c2</color>
+    <color name="logo_back">#2cd306</color>
+    <color name="gray_back">#efefef</color>
+    <color name="blue_text">#0095fb</color>
+    <color name="badge">#2f6a92</color>
+
+</resources>

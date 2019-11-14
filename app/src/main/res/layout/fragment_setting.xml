@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.SettingFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:id="@+id/credit_card"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/gray_back"
+                android:layout_height="60dp">
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:textSize="20dp"
+                    android:text="My Friends 2019"
+                    android:textStyle="bold"
+                    android:textColor="#168e88"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:layout_marginRight="30dp"
+                    android:gravity="center_vertical"
+                    android:textSize="20dp"
+                    android:layout_alignParentRight="true"
+                    android:text="Credit card"
+                    android:textStyle="bold"
+                    android:textColor="#168e88"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp" />
+                <ImageView
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/ic_right_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/gray_back"
+                android:layout_height="60dp">
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:textSize="20dp"
+                    android:text="Default"
+                    android:textStyle="bold"
+                    android:textColor="#168e88"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <Switch
+                    android:layout_marginRight="10dp"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentRight="true"
+                    android:textColor="#168e88"
+                    android:theme="@style/SwitchTheme"
+                    android:layout_width="100dp"
+                    android:layout_height="60dp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:id="@+id/bank"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/gray_back"
+                android:layout_height="60dp">
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:textSize="20dp"
+                    android:text="My Friends 2019"
+                    android:textStyle="bold"
+                    android:textColor="#168e88"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:layout_marginRight="30dp"
+                    android:gravity="center_vertical"
+                    android:textSize="20dp"
+                    android:layout_alignParentRight="true"
+                    android:text="Bank "
+                    android:textStyle="bold"
+                    android:textColor="#168e88"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp" />
+                <ImageView
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/ic_right_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/gray_back"
+                android:layout_height="60dp">
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:textSize="20dp"
+                    android:text="Default"
+                    android:textStyle="bold"
+                    android:textColor="#168e88"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <Switch
+                    android:layout_marginRight="10dp"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentRight="true"
+                    android:textColor="#168e88"
+                    android:theme="@style/SwitchTheme"
+                    android:layout_width="100dp"
+                    android:layout_height="60dp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/gray_back"
+                android:layout_height="60dp">
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:textSize="20dp"
+                    android:text="My Friends 2019"
+                    android:textStyle="bold"
+                    android:textColor="#168e88"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:gravity="center_vertical"
+                    android:textSize="20dp"
+                    android:layout_alignParentRight="true"
+                    android:text="Digital Bank"
+                    android:textStyle="bold"
+                    android:textColor="#168e88"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/gray_back"
+                android:layout_height="60dp">
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:textSize="20dp"
+                    android:text="Default"
+                    android:textStyle="bold"
+                    android:textColor="#168e88"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <Switch
+                    android:layout_marginRight="10dp"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentRight="true"
+                    android:textColor="#168e88"
+                    android:theme="@style/SwitchTheme"
+                    android:layout_width="100dp"
+                    android:layout_height="60dp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

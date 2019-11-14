@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "16335759669",
+    "firebase_url": "https://san-cash.firebaseio.com",
+    "project_id": "san-cash",
+    "storage_bucket": "san-cash.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16335759669:android:9b6742c250aa4059",
+        "android_client_info": {
+          "package_name": "com.business.sancash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "16335759669-k0l4p7tcb1d0jea0qbq0phvb8rci7pdn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.business.sancash",
+            "certificate_hash": "40560b03b318079a95d9e86165a31af110450a36"
+          }
+        },
+        {
+          "client_id": "16335759669-p1c99vhebbo645qa32v24ac7vduvrphn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD00CASf48qE4oaUKVFIoRsjhxMqAuE1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "16335759669-p1c99vhebbo645qa32v24ac7vduvrphn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

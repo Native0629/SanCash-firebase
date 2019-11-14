@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.HomeFragment">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <LinearLayout
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/gray_back"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    android:text="Google Ad"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/gray_back"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    android:text="Google Ad"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_weight="0.4"
+                    android:gravity="center|bottom"
+                    android:textSize="16dp"
+                    android:text="Loan"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/blue_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_weight="0.3"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    android:background="@color/gray_back"
+                    android:text="500"
+                    android:layout_marginHorizontal="10dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" />
+                <TextView
+                    android:layout_weight="0.3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_weight="0.4"
+                    android:gravity="center|bottom"
+                    android:textSize="16dp"
+                    android:text="Number"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue_text"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_weight="0.3"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    android:background="@color/gray_back"
+                    android:text="1"
+                    android:layout_marginHorizontal="10dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" />
+                <TextView
+                    android:layout_weight="0.3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <LinearLayout
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_gravity="center"
+                android:layout_height="match_parent">
+                <TextView
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="13dp"
+                    android:background="@drawable/badge_back"
+                    android:text="Payment"
+                    android:paddingVertical="3dp"
+                    android:paddingHorizontal="15dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+
+                    <ProgressBar
+                        android:id="@+id/circularProgressbar1"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="250dp"
+                        android:layout_height="250dp"
+                        android:indeterminate="false"
+                        android:max="100"
+                        android:progress="75"
+                        android:layout_centerInParent="true"
+                        android:progressDrawable="@drawable/circular"
+                        android:secondaryProgress="100"
+                        />
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/graycircle"
+                        android:layout_centerInParent="true"/>
+                    <TextView
+                        android:id="@+id/tv1"
+                        android:layout_width="250dp"
+                        android:layout_height="250dp"
+                        android:gravity="center"
+                        android:text="4 Days"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/blue_text"
+                        android:textSize="16dp" />
+
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_gravity="center"
+                android:layout_height="match_parent">
+                <TextView
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="13dp"
+                    android:background="@drawable/badge_back"
+                    android:text="Your Turn"
+                    android:paddingVertical="3dp"
+                    android:paddingHorizontal="15dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+
+                    <ProgressBar
+                        android:id="@+id/circularProgressbar2"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="250dp"
+                        android:layout_height="100dp"
+                        android:indeterminate="false"
+                        android:max="100"
+                        android:progress="75"
+                        android:layout_centerInParent="true"
+                        android:progressDrawable="@drawable/circular"
+                        android:secondaryProgress="100"
+                        />
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/graycircle"
+                        android:layout_centerInParent="true"/>
+                    <TextView
+                        android:id="@+id/tv2"
+                        android:layout_width="250dp"
+                        android:layout_height="250dp"
+                        android:gravity="center"
+                        android:text="21 Days"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/blue_text"
+                        android:textSize="16dp" />
+
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_gravity="center"
+                android:layout_height="match_parent">
+                <TextView
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="13dp"
+                    android:background="@drawable/badge_back"
+                    android:text="San end in"
+                    android:paddingVertical="3dp"
+                    android:paddingHorizontal="15dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+
+                    <ProgressBar
+                        android:id="@+id/circularProgressbar3"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="250dp"
+                        android:layout_height="100dp"
+                        android:indeterminate="false"
+                        android:max="100"
+                        android:progress="75"
+                        android:layout_centerInParent="true"
+                        android:progressDrawable="@drawable/circular"
+                        android:secondaryProgress="100"
+                        />
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/graycircle"
+                        android:layout_centerInParent="true"/>
+                    <TextView
+                        android:id="@+id/tv3"
+                        android:layout_width="250dp"
+                        android:layout_height="250dp"
+                        android:gravity="center"
+                        android:text="May 15"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/blue_text"
+                        android:textSize="16dp" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

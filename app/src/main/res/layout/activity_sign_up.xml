@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/splash_back"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".SignUpActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_marginHorizontal="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_marginTop="20dp"
+                android:background="@drawable/green_back"
+                android:layout_gravity="center"
+                android:layout_width="210dp"
+                android:layout_height="60dp">
+                <TextView
+                    android:gravity="center"
+                    android:textColor="@color/white_text"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:text="San"
+                    android:layout_toLeftOf="@+id/tv_dollar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:id="@+id/tv_dollar"
+                    android:gravity="center"
+                    android:textColor="@color/logo_back"
+                    android:textStyle="bold"
+                    android:textSize="33dp"
+                    android:text="$"
+                    android:layout_marginHorizontal="12dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/graycircle"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+
+                <TextView
+                    android:layout_toRightOf="@+id/tv_dollar"
+                    android:gravity="center"
+                    android:textColor="@color/white_text"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:text="Cash"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="35dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                app:counterEnabled="false"
+                android:layout_marginBottom="5dp"
+                app:counterMaxLength="6"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="#1f1f1f">
+                <EditText
+                    android:id="@+id/first_name"
+                    android:hint="First Name"
+                    android:textSize="16dp"
+                    android:padding="15dp"
+                    android:background="@drawable/button_back"
+                    android:inputType="textPersonName"
+                    android:textColor="#1f1f1f"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                app:counterEnabled="false"
+                android:layout_marginBottom="5dp"
+                app:counterMaxLength="6"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="#1f1f1f">
+                <EditText
+                    android:id="@+id/last_name"
+                    android:hint="Last Name"
+                    android:textSize="16dp"
+                    android:padding="15dp"
+                    android:background="@drawable/button_back"
+                    android:inputType="textPersonName"
+                    android:textColor="#1f1f1f"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                app:counterEnabled="false"
+                app:counterMaxLength="6"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="#1f1f1f">
+                <EditText
+                    android:id="@+id/bank"
+                    android:hint="Bank info Choice account debit credit"
+                    android:textSize="16dp"
+                    android:padding="15dp"
+                    android:background="@drawable/button_back"
+                    android:inputType="textPersonName"
+                    android:textColor="#1f1f1f"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                app:counterEnabled="false"
+                app:counterMaxLength="6"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="#1f1f1f">
+                <EditText
+                    android:id="@+id/adress"
+                    android:hint="Adress"
+                    android:layout_marginTop="15dp"
+                    android:textSize="16dp"
+                    android:editable="false"
+                    android:padding="15dp"
+                    android:background="@drawable/button_back"
+                    android:textColor="#1f1f1f"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:id="@+id/birth"
+                android:hint="Date of birth"
+                android:layout_marginTop="15dp"
+                android:textSize="16dp"
+                android:editable="false"
+                android:padding="15dp"
+                android:background="@drawable/button_back"
+                android:inputType="textPersonName"
+                android:textColor="#1f1f1f"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                app:counterEnabled="false"
+                app:counterMaxLength="6"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="#1f1f1f">
+                <EditText
+                    android:id="@+id/email"
+                    android:hint="Phone Number"
+                    android:layout_marginTop="15dp"
+                    android:textSize="16dp"
+                    android:padding="15dp"
+                    android:inputType="phone"
+                    android:background="@drawable/button_back"
+                    android:textColor="#1f1f1f"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                app:counterEnabled="false"
+                app:counterMaxLength="6"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="#1f1f1f">
+                <EditText
+                    android:id="@+id/pass"
+                    android:hint="Email"
+                    android:layout_marginTop="15dp"
+                    android:textSize="16dp"
+                    android:padding="15dp"
+                    android:background="@drawable/button_back"
+                    android:inputType="textEmailAddress"
+                    android:textColor="#1f1f1f"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                app:counterEnabled="false"
+                app:counterMaxLength="6"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="#1f1f1f">
+                <EditText
+                    android:id="@+id/input_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:background="@drawable/button_back"
+                    android:paddingEnd="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingStart="10dp"
+                    android:textColor="#1f1f1f"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:layout_marginBottom="10dp"
+                android:id="@+id/sign_up"
+                android:background="@drawable/button_back"
+                android:text="Sign up"
+                android:textSize="25dp"
+                android:textColor="@color/btn_text"
+                android:layout_marginTop="50dp"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="60dp" />
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@color/logo_back"
+            android:layout_gravity="center"/>
+    </RelativeLayout>
+    <!--android:visibility="gone"-->
+</LinearLayout>
